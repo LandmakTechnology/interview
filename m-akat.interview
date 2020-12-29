@@ -1,0 +1,112 @@
+```
+#Capital One Power Day Interview
+```
+Technical Interview 4
+Seems like you have some sort of AWS experience and developing architecture. Lets talk about different ways you can set it up and also talk to me about some designs.
+
+1)If I want to set up a Rest API and in AWS, I want it to be highly available, highly resiliant, multi region, what services will i need, what do the services do/provide, why did you choose those services?
+
+2)How does traffic get to the kubernetes?
+
+3)What are all the kinds of load balancers in AWS?
+Why will you use an ELB over an ALB?
+
+4)What is the difference between a blue green deployment over a canary deployment and why will i pick one over the other?
+
+5)How do you deploy a new stack without experiencing downtime?
+
+6)How would you actually implement a blue green deployment in AWS and ensure there is no downtime?
+
+7)You have your current application running how do you switch traffic  from the blue stack to the green stack without the customers experiencing down time and without changing your network infrastructure?
+
+8)Lets talk about databases,
+what kind of databases have you used?
+Did you use them in AWS or nOT?
+Did you use Aurora postgresql or just plain postgresql
+Did you use them with replicas or not?
+In region or out of region?
+
+9)If I am setting up this database and i want to switch traffic from the master to the replica. Tell me the steps I will need to accomplish this.
+
+10)What monitoring tools do you use for your applications, what are you monitoring? Do you have 
+
+11)CI/CD pipeline
+2)What are the phases for building a CI/CD pipeline and what are the phases?
+3)What do you mean by Maven will validate?
+4)If you were to redesign what you are using now? what will you add to it and how will you change the pipeline to be better?
+
+12)Monitoring: If I am monitoring applications in production, what are some of the things I may want to monitor and why?
+
+13)What tools will you use and how to monitor your application?
+Do you monitor these manually or have you set up some automated manner to report alerts?
+
+14) What are your primary responsibilities at your current position?
+a)What types of tickets do you resolve from Jira?
+
+15)Do you manually provision or do you build terraform scripts to use for provisioning? How to you manage changes in your architecture?
+How do you keep yourself from breaking the architecture?
+
+
+
+Interview 3- Case Interview
+
+1)Capital one just aquired a digital bank-ING direct.This bank is completely virtual has no branches, offices, etc.
+what are the business and technical benefits?
+
+2)If you wanted to cross sell the ING product to your current clients without them having to log into two seperate applications how would you accomplish that?
+
+3)What ways can you deploy this new ING stack with your already existing application?
+ 
+
+4)Analytical Question: If you have 3 inputs and any combination of the 3 inputs can either result in one of 2 possible outcomes. How many outcomes in total can you have?
+Can you code how you will get to your answer in javascript?
+
+
+Interview 2-Behavioral Interview
+
+1)Tell me about a difficult task from your past experience that you were able to accomplish and how you accomplished the task?
+
+Follow up Questions:
+1) Did you single handedly complete the task or did you work with a team?
+2)If you worked with a team, how did you get the team members to participate?
+3)How did you know your deliverable was accurate?
+4)What steps did you take to ensure you made the correct recommendations?
+5)How did you communicate your deliverables to your target audience?
+6)Why did you choose the combination of tools that you chose?
+
+2)Tell me about a time when you had to change your work plan to accomodate a new client requirement at work?
+
+3)If you had a very difficult manager, would it affect your output?
+How will you go about working with this person in a way that will not impede team productivity?
+
+
+
+Interview 1 - Technical and Job fit Interview
+
+1) What resources will you use and how to stand up an application with the following requirements:
+
+- Has 7 scripts, 4 of them share the same libraries with 3(Pandas and Numpy). The 3 have an extra library (SciKit learn).
+-You have access to S3 bucket
+- The analysts will need to be able to pull back this data 3-5 minutes from write.The storage has no maximum capacity.
+
+2)How will you make the script to display the result every 3-5 minutes?Will somone have to be there to manually to run it every 3 -5 minutes?
+
+2a)Where will your cronjob be set up?
+
+- 
+4)What IDE do you use?
+4a)What platform does a Jupiter notebook sit on?How can you connect from a jupiter notebook to your cluster?
+
+
+5)Write a python code to iterate everyword in the string and to count how any times each work apppears in that string.
+
+6) How does a Master node speak to a database?
+
+7)How will you use Terraform to provision Jenkins?
+What type of terrafomr files will you create?
+What resources will you use in your provisioning?
+What kind of region will you pick and why?
+What is a VPC and what key elements do you need for your code to talk to the AWS Api?
+
+8)How many different ways can you build terraform files?(1 main .tf file or many .fr file)Which will you use and why?
+8a) Which is better?
