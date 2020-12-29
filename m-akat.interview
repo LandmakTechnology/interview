@@ -110,3 +110,116 @@ What is a VPC and what key elements do you need for your code to talk to the AWS
 
 8)How many different ways can you build terraform files?(1 main .tf file or many .fr file)Which will you use and why?
 8a) Which is better?
+
+
+Interview 1:With Software Developer
+
+1)Tell me about yourself?
+
+2)Can you describe the underlying framework? How many web applications are you supporting?
+
+3)Are they spring.javabased?Do they have a frontend? How does it translate to the github repository?
+
+4)So you mentioned Terraform and Ansible, can you mention what the difference between the two is in the context of how your team uses it?
+
+5)Have you set up or written any ansible or Terraform scripts yourself?
+
+6)Can you describe what resources are in a Terraform script?
+
+5)Have you maintained or managed a Jenkins settup? Written groovy scripts and added plugins yourself?I see bash and Python.
+
+6)Do you maintain the server installation, if confluence were to crash
+
+7)Are you guys running EC2 instances, what happens if they crash?
+
+8)What Brings you to this organisation?
+
+9)I am trying to guage your stacks on if you are able to get your hands dirty: Do you know how the structures are configured, what the roles and permissions are across the structure, what kind of containerised platform is being run? Just being able to back up the leadership component with jumping into the trenches and doing the actual work with the team if it needs to be done?
+
+10)You mentioned python, can you describe an instance of a python script that you wrote even if it is a demo -walk me through it?
+
+11)Could you walk me through in your head the resources of getting the boto3 client, passing in the keys, pulling the resource ID -how involved where you in the development of it?
+
+Questions I asked:
+   -How is your team distributed?
+   -If you decided to move forward, what will be your expectations of me in the first 30-60 and even 90 days?
+
+
+Interview with Architect Manager
+Interview2:
+
+1)Tell me about yourself
+
+2)Where do you want to see yourself and your career directions?
+
+3)Will you like to be in the code or in the project management side or just in the  front end?
+
+4)Can you tell me a little bit about what you have done with Docker, with Kubernetes and EKS?
+
+5)If you have to choose between EKS and kubernetes on an EC2 which one will you pick and why? If it is not a case of budget, which will you pick and why?
+
+6)What kind of requirements will make you choose a particular tool versus another?
+
+7)Groovy Scripting- Have you written groovy scripts, how have you used infrastructure as code and plugins in your project?
+
+8)Where do you think you will like to work:-Maintainance, Building from scratch and modernize - What will you prefer doing?
+
+9)What kind of experience do you have in GCP and Azure ?
+
+10)Why are you leaving your current position and why are you looking to move?
+
+
+Advocate for yourself. It’s important to find supporters and mentors to help you navigate your path, but you need to take the lead. Also, tell your story. Let people know what you do and be able to demonstrate and showcase the things you say you’ve done. 
+When I first started , 
+I learned that there are five stories you should be ready to share when someone asks you: 
+1)how you lead, how you’ve ended up in your current role, 
+2)how you shifted your perspective on an issue, 
+3)how you’ve selflessly acted to help your community, and 
+4)what you’ve learned from your greatest misstep. 
+
+Each of these narratives explores an important side of you. When you share them with the right people and have the mentorship supports in place, that’s when big things happen.
+
+
+Interview 3
+
+1)Explain what this command is doing:
+
+docker run -d -p 8000:8080 -v /app/code:/src/code python:3.6
+
+a) What does -d refer to?
+b)What is -v?
+c)What does 8000:8080 refer to?
+d)what does the last part of the code refer to?
+
+
+2) What is a helm Chart?
+Explain what a Helm chart will do?
+
+3)What kinds of Tools have you normally use in analytics and give an example of how you will use them?
+
+4)What have you done with Jenkins?
+5)Have you actually writen a groovy script?
+6)What configuration tool will you use to configure a pipeline? Walk me through what you will configure and how you will do it?
+
+Interview 4
+
+1)Talk to me about all the services you have used in AWS and how you have used them
+2)Say you have a client that needs you to build and deploy a java for Kubernetes application and want to deploy it.What mix of tools will you recommend and how will you use them.Can you do a presentation?
+
+3)Tell me the differences in these and what they are best used for:
+  1)AWS,AZURE and GCP
+  2) Cloud Formation and Harshicorp Terraform
+  3)MongoDB and PostgreSQL
+  4)K8s vs Openshift
+  5)What do you have to do manage manually in Terraform that you do not have to manage in cloud formation
+  6)What kinds of applications will be best to deploy on AWS  Vs GCP
+
+4)Where do you see yourself wanting to work with your headphones on burried in the code or on the design and build side?
+
+5)Why did you apply to this organisation?
+
+6)Have you used Terraform and Ansible together? How did you integrate them?
+
+7)How how would you expose your clusters to end users?
+
+8)If you have a deployment and Service script in K8s what are each of them meant to accomplish?
