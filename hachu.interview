@@ -31,3 +31,21 @@
 - How can I ensure that my pods are recreated?
 
 - How can I ensure that my cluster is recovered if it goes down?
+
+- How do you set-up your Infrastructure using Terraform.
+
+- Do you have different scripts for different environments and platforms?
+
+- Can you explain to me how you configured your pipeline in the Test Environment?
+
+- How have you used blue-green and red-black deployment in your environment?
+
+- Explain how you used Terraform to deploy your application.
+
+- How do you protect your credentials in Terraform?
+
+- Tell me the challenges you have faced in running your pipeline.
+
+- How do you ensure security of usernames and password in artifact repositories.
+
+- Give me a rundown on how you have used troubleshooting to solve a problem on your pipeline.
