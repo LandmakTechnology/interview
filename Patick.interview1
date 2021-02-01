@@ -1,0 +1,10 @@
+What are the security tools in AWS
+walk me through the security process in aws
+How did you configure tls
+walk me through the provisioning process of security in WAS
+Would you put you db in the private subnet or public or both
+Why
+Somebody who is given an admin right how can you limit his access
+scp security
+Nacl and SG. which is state and which is stateless
+How would you configure DNS route 53 and load balancers for end users to access
